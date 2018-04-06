@@ -34,7 +34,7 @@ export default {
       componentName() {
           return this.mode == 'view' ? 'ProductDetails' : 'ProductAdd';
       }
-  },
+  },  
   components: {
     myHeader,
     'products': ProductsList,
